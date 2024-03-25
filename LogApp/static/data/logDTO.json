@@ -1,0 +1,33 @@
+{
+  "_id": {
+    "$oid": "65fc0bf4bd873f4381c6bbc6"
+  },
+  "createdTime": {
+    "$date": "2024-03-21T10:29:07.144Z"
+  },
+  "scopeLogs": [
+    {
+      "logRecords": [
+        {
+          "body": {
+            "stringValue": "No order details found for ID: 102"
+          },
+          "flags": 1,
+          "observedTimeUnixNano": "1711016947144907000",
+          "severityNumber": 9,
+          "severityText": "INFO",
+          "spanId": "20a52cf4f39a0444",
+          "timeUnixNano": "1711016947144898000",
+          "traceId": "ea34ec6c70746bebda739cf2f3d912c7"
+        }
+      ],
+      "scope": {
+        "name": "com.zaga.OrderProj.OrderService"
+      }
+    }
+  ],
+  "serviceName": "order-srv-2",
+  "severityText": "INFO",
+  "spanId": "20a52cf4f39a0444",
+  "traceId": "ea34ec6c70746bebda739cf2f3d912c7"
+}

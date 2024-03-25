@@ -1,0 +1,241 @@
+{
+  "_id": {
+    "$oid": "65fc0bf4bd873f4381c6bbc7"
+  },
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "container.id",
+            "value": {
+              "intValue": 0,
+              "stringValue": "a5b189f75e86b90195eb4d9003a6f4c890a289c81dec3c49f33d0631ffab6dd5"
+            }
+          },
+          {
+            "key": "host.arch",
+            "value": {
+              "intValue": 0,
+              "stringValue": "amd64"
+            }
+          },
+          {
+            "key": "host.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2-86d74989c6-t7hj4"
+            }
+          },
+          {
+            "key": "k8s.container.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2"
+            }
+          },
+          {
+            "key": "k8s.deployment.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2"
+            }
+          },
+          {
+            "key": "k8s.namespace.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "observai-main"
+            }
+          },
+          {
+            "key": "k8s.node.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "zagaocp-us-sno"
+            }
+          },
+          {
+            "key": "k8s.pod.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2-86d74989c6-t7hj4"
+            }
+          },
+          {
+            "key": "k8s.replicaset.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2-86d74989c6"
+            }
+          },
+          {
+            "key": "os.description",
+            "value": {
+              "intValue": 0,
+              "stringValue": "Linux 5.14.0-284.48.1.el9_2.x86_64"
+            }
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "intValue": 0,
+              "stringValue": "linux"
+            }
+          },
+          {
+            "key": "process.command_args",
+            "value": {
+              "arrayValue": {
+                "values": [
+                  {
+                    "intValue": 0,
+                    "stringValue": "/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64/bin/java"
+                  },
+                  {
+                    "intValue": 0,
+                    "stringValue": "-jar"
+                  },
+                  {
+                    "intValue": 0,
+                    "stringValue": "app.jar"
+                  }
+                ]
+              },
+              "intValue": 0
+            }
+          },
+          {
+            "key": "process.executable.path",
+            "value": {
+              "intValue": 0,
+              "stringValue": "/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64/bin/java"
+            }
+          },
+          {
+            "key": "process.pid",
+            "value": {
+              "intValue": 1
+            }
+          },
+          {
+            "key": "process.runtime.description",
+            "value": {
+              "intValue": 0,
+              "stringValue": "Red Hat, Inc. OpenJDK 64-Bit Server VM 11.0.18+10-LTS"
+            }
+          },
+          {
+            "key": "process.runtime.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "OpenJDK Runtime Environment"
+            }
+          },
+          {
+            "key": "process.runtime.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "11.0.18+10-LTS"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "order-srv-2"
+            }
+          },
+          {
+            "key": "telemetry.distro.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "opentelemetry-java-instrumentation"
+            }
+          },
+          {
+            "key": "telemetry.distro.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "2.1.0"
+            }
+          },
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "intValue": 0,
+              "stringValue": "java"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "1.35.0"
+            }
+          }
+        ]
+      },
+      "schemaUrl": "https://opentelemetry.io/schemas/1.23.1",
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "body": {
+                "stringValue": "No order details found for ID: 102"
+              },
+              "flags": 1,
+              "observedTimeUnixNano": "1711016947144907000",
+              "severityNumber": 9,
+              "severityText": "INFO",
+              "spanId": "20a52cf4f39a0444",
+              "timeUnixNano": "1711016947144898000",
+              "traceId": "ea34ec6c70746bebda739cf2f3d912c7"
+            }
+          ],
+          "scope": {
+            "name": "com.zaga.OrderProj.OrderService"
+          }
+        },
+        {
+          "logRecords": [
+            {
+              "body": {
+                "stringValue": "Received request to get order by ID: 102"
+              },
+              "flags": 1,
+              "observedTimeUnixNano": "1711016947135963000",
+              "severityNumber": 9,
+              "severityText": "INFO",
+              "spanId": "20a52cf4f39a0444",
+              "timeUnixNano": "1711016947135953000",
+              "traceId": "ea34ec6c70746bebda739cf2f3d912c7"
+            },
+            {
+              "body": {
+                "stringValue": "No order found with ID: 102"
+              },
+              "flags": 1,
+              "observedTimeUnixNano": "1711016947145533000",
+              "severityNumber": 17,
+              "severityText": "ERROR",
+              "spanId": "20a52cf4f39a0444",
+              "timeUnixNano": "1711016947145501000",
+              "traceId": "ea34ec6c70746bebda739cf2f3d912c7"
+            }
+          ],
+          "scope": {
+            "name": "com.zaga.OrderProj.OrderController"
+          }
+        }
+      ]
+    }
+  ]
+}
